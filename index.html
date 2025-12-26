@@ -56,18 +56,20 @@
     .buttons {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 6px; /* smaller gap */
       margin-top: 10px;
+      align-items: center;
     }
 
     .button {
       display: inline-block;
       background-color: #cfa56f;
       color: white;
-      padding: 12px 30px;
+      padding: 8px 20px;   /* smaller padding */
       border-radius: 25px;
       text-decoration: none;
       font-weight: 600;
+      font-size: 0.9em;    /* slightly smaller text */
       transition: 0.3s;
     }
 
@@ -130,6 +132,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 8px; /* spacing between horizontal buttons */
       }
     }
   </style>
